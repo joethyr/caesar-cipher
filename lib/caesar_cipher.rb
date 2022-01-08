@@ -9,7 +9,5 @@ def caesar_cipher(string, shift)
       cipher_string += [e.chr]
     end
   end
-  puts cipher_string.join('')
+  cipher_string.join('')
 end
-
-caesar_cipher('Ab, fr gtfx bl Chlxia.', 7)
